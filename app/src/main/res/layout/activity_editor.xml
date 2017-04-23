@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin"
+        tools:context=".EditorActivity">
+
+        <!-- Overview category -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Label -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flat/House No." />
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/add1"
+                style="@style/EditorFieldStyle"
+                android:hint="Address line 1"
+                android:inputType="textCapWords" />
+            <!-- Label -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Street/Area" />
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/add2"
+                style="@style/EditorFieldStyle"
+                android:hint="Address line 2"
+                android:inputType="textCapWords" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+                    <!-- Label -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pincode" />
+                    <!-- Name field -->
+                    <EditText
+                        android:id="@+id/pincode"
+                        style="@style/EditorFieldStyle"
+                        android:hint="eg.400001"
+                        android:inputType="number" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+                    <!-- Label -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="City" />
+                    <!-- Name field -->
+                    <EditText
+                        android:id="@+id/city"
+                        style="@style/EditorFieldStyle"
+                        android:hint="eg.Mumbai"
+                        android:inputType="textCapWords" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- Label -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Landmark" />
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/add3"
+                style="@style/EditorFieldStyle"
+                android:hint="(Optional)"
+                android:inputType="textCapWords" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nickname for address" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOME" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="WORK" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="OTHER" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE" />
+    </LinearLayout>
+</ScrollView>

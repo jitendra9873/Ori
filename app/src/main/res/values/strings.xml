@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ori</string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="gender_male">Male</string>
+
+    <string name="gender_female">Female</string>
+
+    <string name="empty_view_title_text1">You have no saved addresses</string>
+    <string name="empty_view_title_text2">Add an address to continue.</string>
+    <string name="delete_address">Are you sure you want to delete this address?</string>
+</resources>
