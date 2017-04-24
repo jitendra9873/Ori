@@ -22,23 +22,23 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Flat/House No." />
+                android:text="@string/a1t" />
             <!-- Name field -->
             <EditText
                 android:id="@+id/add1"
                 style="@style/EditorFieldStyle"
-                android:hint="Address line 1"
+                android:hint="@string/a1e"
                 android:inputType="textCapWords" />
             <!-- Label -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Street/Area" />
+                android:text="@string/a2t" />
             <!-- Name field -->
             <EditText
                 android:id="@+id/add2"
                 style="@style/EditorFieldStyle"
-                android:hint="Address line 2"
+                android:hint="@string/a2e"
                 android:inputType="textCapWords" />
 
             <LinearLayout
@@ -55,12 +55,12 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Pincode" />
+                        android:text="@string/pt" />
                     <!-- Name field -->
                     <EditText
                         android:id="@+id/pincode"
                         style="@style/EditorFieldStyle"
-                        android:hint="eg.400001"
+                        android:hint="@string/pe"
                         android:inputType="number" />
                 </LinearLayout>
 
@@ -73,12 +73,12 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="City" />
+                        android:text="@string/ct" />
                     <!-- Name field -->
                     <EditText
                         android:id="@+id/city"
                         style="@style/EditorFieldStyle"
-                        android:hint="eg.Mumbai"
+                        android:hint="@string/ce"
                         android:inputType="textCapWords" />
                 </LinearLayout>
 
@@ -87,15 +87,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Landmark" />
+                android:text="@string/lt" />
             <!-- Name field -->
             <EditText
                 android:id="@+id/add3"
                 style="@style/EditorFieldStyle"
-                android:hint="(Optional)"
+                android:hint="@string/le"
                 android:inputType="textCapWords" />
 
-            <TextView
+            <!--<TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nickname for address" />
@@ -124,13 +124,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="OTHER" />
-            </LinearLayout>
+            </LinearLayout>-->
         </LinearLayout>
 
         <Button
+
+            android:layout_gravity="end"
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SAVE" />
+            android:text="@string/save" />
     </LinearLayout>
 </ScrollView>

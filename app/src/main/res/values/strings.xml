@@ -14,4 +14,16 @@
     <string name="empty_view_title_text1">You have no saved addresses</string>
     <string name="empty_view_title_text2">Add an address to continue.</string>
     <string name="delete_address">Are you sure you want to delete this address?</string>
+    <string name="a1t">Flat/House No.</string>
+    <string name="a2t">Street/Area</string>
+    <string name="pt">Pincode</string>
+    <string name="ct">City</string>
+    <string name="lt">Lankmark</string>
+    <string name="pe">eg.400001</string>
+    <string name="a1e">Address line 1</string>
+    <string name="a2e">Address line 2</string>
+
+    <string name="le">(Optional)</string>
+    <string name="save">SAVE</string>
+    <string name="ce">eg.Mumbai</string>
 </resources>
