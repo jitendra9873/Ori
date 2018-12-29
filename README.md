@@ -1,5 +1,5 @@
 # My Account Details
-Simple App that takes information from user and stores using SQLite Database.
+App that takes information from user and stores using SQLite Database.
 # App Screenshots:
 
 
